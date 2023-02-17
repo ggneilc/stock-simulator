@@ -20,7 +20,7 @@ public class userAccount {
     }
 
     /*
-     * Returns the user's buying power & account balance
+     * Returns the user's buying power as an integer
      */
     public int getBuyingPower(){
         int bp = 0;
@@ -33,12 +33,17 @@ public class userAccount {
         return bp;
     }
 
+    /*
+     * Returns the user's account balance as an integer
+     */
     public int getAccountBalance(){
         int ab = 0;
 
-        //values contains all the information about the user
+        //split off the commas to get 'key: value'
         String[] values = db.Select(username).split(",",4);
+        //split off the $ to get the integer value
         String[] accountBal = values[3].split("\\$");
+        //turn the string into an integer
         ab = Integer.parseInt(accountBal[1]);
 
         return ab;

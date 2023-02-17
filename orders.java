@@ -1,3 +1,3 @@
-public class stockTrader {
+public class orders {
     
 }

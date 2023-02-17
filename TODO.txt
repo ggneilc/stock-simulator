@@ -1,0 +1,11 @@
+Stock market simulator: Create an application that simulates the buying and selling of stocks. Users can create an account, view stock prices, and make transactions. You can use an API to get real-time stock prices or simulate the prices yourself.
+
+1. User registration: Users should be able to create an account by providing their name, email address, and password. You can use Java's file I/O classes to store user account information in a text file, or use a database to store data.
+2. Stock data: You can use an API such as Alpha Vantage or Yahoo Finance to get real-time stock data. The API will return the stock symbol, price, and other information that you can use in your application. Alternatively, you can simulate the stock prices yourself by generating random numbers within a certain range.
+3. User interface: You can create a graphical user interface using Java's Swing or JavaFX libraries. The user interface should allow users to view stock prices, search for stocks by symbol or name, and make transactions. You can use Java's networking classes to create a client-server architecture and enable communication between clients.
+4. Transaction processing: When a user makes a transaction, you need to update the user's account balance and the stock prices. You can use Java's file I/O classes to store transaction history in a text file, or use a database to store data. You can also implement features such as limit orders and stop-loss orders to simulate real-world trading.
+5. Reporting: You can create reports that summarize the user's trading activity, including profits and losses. You can also display stock charts and other visualizations to help users make informed trading decisions.
+
+
+TODO: [x] put on a shirt
+

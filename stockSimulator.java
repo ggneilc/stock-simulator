@@ -16,6 +16,7 @@ public class stockSimulator {
         System.out.print("Password: ");
         pass = scan.next();
 
+        scan.close();
         System.out.println("Creating Account...");
 
         userAccount NewUser = new userAccount(email, user, pass);
